@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #211824;
+  font-family: poppins;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.accordion {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+button {
+  width: 100%;
+  padding: 1em;
+  border: 1px solid #fd2f51;
+  background: #fd2f51;
+  margin: 0.2em 0;
+  outline: none;
+  cursor: pointer;
+  color: #f1eff0;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.tab {
+  background: #ffeed8;
+  height: 0;
+  overflow: hidden;
+  border-radius: 5px;
+  padding: 0;
+  transition: all 0.4s;
+  color: #2c393f;
+}
+.tab p {
+  padding: 1em;
+}
